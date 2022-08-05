@@ -7,7 +7,7 @@ import {
   useState,
 } from 'react';
 import styles from './index.less';
-import { replaceWhitespace } from '../../delSpace';
+import { replaceWhitespace } from '../utils/delSpace';
 
 const content = `<body><div style="padding: 1px">12           3</div></body>`;
 let rs = replaceWhitespace(content);
